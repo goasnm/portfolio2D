@@ -1,0 +1,90 @@
+맵디자인 // 처음에 방패 획득 // 마을에서 칼 획득 // 던전맵에서 점프 획득
+
+픽셀 충돌
+
+벽 : 255 (77,253,252)
+
+상자 : 255 (33,77,60)
+
+맵이동 : 255 
+
+House_1 -> world (0,0,1)
+House_2 -> world (0,0,2)
+House_3 -> world (0,0,3)
+House_4 -> world (0,0,4)
+House_5 -> world (0,0,5)
+House_6 -> world (0,0,6)
+House_7 -> world (0,0,7)
+world  -> House_1 (0,0,8) 
+world  -> House_2 (0,0,9) 
+world  -> House_3 (0,0,10) 
+world  -> House_4 (0,0,11) 
+world  -> House_5 (0,0,12) 
+world  -> House_6 (0,0,13) 
+world  -> House_7 (0,0,14) 
+House_6 -> House_7 (0,0,15) 
+House_7 -> House_6 (0,0,16) 
+
+world  ->Dungeon1 (0,0,17)
+Dungeon1 -> Dungeon2 (0,0,18)
+Dungeon2 -> Dungeon3 (0,0,19)
+Dungeon3 -> Dungeon4 (0,0,20)
+Dungeon4 -> Dungeon5 (0,0,21)
+Dungeon4 -> Dungeon6 (0,0,22)
+Dungeon6 -> Dungeon7 (0,0,23)
+Dungeon7 -> Dungeon8 (0,0,24)
+Dungeon8 -> Dungeon9 (0,0,25)
+Dungeon9 -> Dungeon10 (0,0,26)
+Dungeon7 -> Dungeon11 (0,0,27)
+Dungeon11 -> Dungeon12 (0,0,28)
+Dungeon11 -> Dungeon13 (0,0,29)
+Dungeon13 -> Dungeon14 (0,0,30)
+Dungeon14 -> Dungeon15 (0,0,31)
+Dungeon15 -> Dungeon16 (0,0,32)
+Dungeon16 -> Dungeon17 (0,0,33)
+Dungeon17 -> Dungeon18 (0,0,34)
+
+Dungeon2 -> Dungeon1 (0,0,35)
+Dungeon1 -> world  (0,0,36)
+Dungeon3 -> Dungeon2 (0,0,37)
+Dungeon4 -> Dungeon1 (0,0,38)
+Dungeon5 -> Dungeon4 (0,0,39)
+Dungeon5 -> Dungeon7 (0,0,40)
+Dungeon1 -> Dungeon4 (0,0,41)
+Dungeon6 -> Dungeon4 (0,0,42)
+Dungeon7 -> Dungeon5 (0,0,43)
+Dungeon7 -> Dungeon6 (0,0,44)
+Dungeon8 -> Dungeon7 (0,0,45)
+Dungeon9 -> Dungeon8 (0,0,46)
+Dungeon11 -> Dungeon7 (0,0,47)
+Dungeon12 -> Dungeon11 (0,0,48)
+Dungeon13 -> Dungeon11 (0,0,49)
+Dungeon14 -> Dungeon13 (0,0,50)
+Dungeon15 -> Dungeon14 (0,0,51)
+Dungeon16 -> Dungeon15 (0,0,52)
+Dungeon10 -> Dungeon9 (0,0,53)
+Dungeon15 -> Dungeon18 (0,0,57)
+Dungeon18 -> Dungeon14 (0,0,58)
+
+가로 맵(시간되면할거)
+Dungeon9 -> Dungeon17 (0,0,54)
+Dungeon17 -> Dungeon10 (2,2,0)
+Dungeon17 -> Dungeon9 (0,0,56)
+
+
+// 월드맵 관련
+
+계단 (1,1,0) 이동속도 감소
+
+던전 낭떠러지 -> 던전입구 (1,1,1)
+해변 낭떠러지 -> 해변 입구 (1,1,2)
+
+
+떨어지는 타일 :
+
+낭떠러지 -> Dungeon1 (0,0,59)
+
+
+endscene :
+
+end (200,200,200)

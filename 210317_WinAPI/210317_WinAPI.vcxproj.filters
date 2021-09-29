@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{77994adb-bb80-42e8-886b-851bb890958e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework">
+      <UniqueIdentifier>{fae288c9-1a89-4141-bbae-e4f3680953fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Enemy">
+      <UniqueIdentifier>{6e5df244-c6a3-43cb-b9d0-02b9ddf1a72c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Manager">
+      <UniqueIdentifier>{b13c0c7c-4aa6-4918-a643-613eaee0edc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Timer">
+      <UniqueIdentifier>{1e84e8d0-34db-4438-9c9b-8c3603ab2fec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene">
+      <UniqueIdentifier>{43d02367-700b-49b5-a030-feb7b581ed9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\UI">
+      <UniqueIdentifier>{f77d4c3b-d1c0-4152-8943-cde8ada65ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\UI\Button">
+      <UniqueIdentifier>{91eb96ad-df64-4b6d-bc8b-8a504d0d37bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\LoadingScene">
+      <UniqueIdentifier>{a92adbad-914a-4839-a421-f5eda0d5c3ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\player">
+      <UniqueIdentifier>{2e059c3e-e68b-45b0-af81-e51b59ad1f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Collision">
+      <UniqueIdentifier>{d2c8150d-5d86-4c61-8cce-ec2f8027e339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\player\Inventory">
+      <UniqueIdentifier>{445bc53a-f882-4c2f-b214-bc69dd6597af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\player\playerUi">
+      <UniqueIdentifier>{afe041ad-108b-4072-b2f5-a907791fd3c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{b675e5c2-6f75-4c24-be48-fc4c1bfa523d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\NPC">
+      <UniqueIdentifier>{dae712a9-6f86-4cac-9da3-9f1cdf8151de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene\Mapmove">
+      <UniqueIdentifier>{22e4dd15-43c3-41ce-9c28-64a27d6feb53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Boss">
+      <UniqueIdentifier>{f98b071b-3a1c-49dd-85e1-a9bce3bbfee1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameNode.cpp">
+      <Filter>2D Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>2D Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>MainGame\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>MainGame\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>2D Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>2D Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>2D Framework\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerManager.cpp">
+      <Filter>2D Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>2D Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TilemapTool.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>2D Framework\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="AstarScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScene.cpp">
+      <Filter>MainGame\LoadingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>MainGame\player</Filter>
+    </ClCompile>
+    <ClCompile Include="playerUi.cpp">
+      <Filter>MainGame\player\playerUi</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>MainGame\player\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="MainCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcManager.cpp">
+      <Filter>MainGame\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc.cpp">
+      <Filter>MainGame\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapmove.cpp">
+      <Filter>MainGame\Scene\Mapmove</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy1.cpp">
+      <Filter>MainGame\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyD_Manager.cpp">
+      <Filter>MainGame\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyD.cpp">
+      <Filter>MainGame\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyD1.cpp">
+      <Filter>MainGame\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyD1_Manager.cpp">
+      <Filter>MainGame\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="BossManager.cpp">
+      <Filter>MainGame\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>MainGame\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss1.cpp">
+      <Filter>MainGame\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc1.cpp">
+      <Filter>MainGame\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc2.cpp">
+      <Filter>MainGame\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc3.cpp">
+      <Filter>MainGame\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc4.cpp">
+      <Filter>MainGame\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc5.cpp">
+      <Filter>MainGame\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc6.cpp">
+      <Filter>MainGame\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc7.cpp">
+      <Filter>MainGame\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc8.cpp">
+      <Filter>MainGame\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc9.cpp">
+      <Filter>MainGame\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc10.cpp">
+      <Filter>MainGame\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNode.h">
+      <Filter>2D Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>2D Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>2D Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>MainGame\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>MainGame\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>2D Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>2D Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>2D Framework\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerManager.h">
+      <Filter>2D Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>2D Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TilemapTool.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>2D Framework\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="AstarScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScene.h">
+      <Filter>MainGame\LoadingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>MainGame\player</Filter>
+    </ClInclude>
+    <ClInclude Include="playerUi.h">
+      <Filter>MainGame\player\playerUi</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>MainGame\player\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="MainCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcManager.h">
+      <Filter>MainGame\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc.h">
+      <Filter>MainGame\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapmove.h">
+      <Filter>MainGame\Scene\Mapmove</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy1.h">
+      <Filter>MainGame\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyD_Manager.h">
+      <Filter>MainGame\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyD.h">
+      <Filter>MainGame\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyD1.h">
+      <Filter>MainGame\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyD1_Manager.h">
+      <Filter>MainGame\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="BossManager.h">
+      <Filter>MainGame\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>MainGame\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss1.h">
+      <Filter>MainGame\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc1.h">
+      <Filter>MainGame\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc2.h">
+      <Filter>MainGame\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc3.h">
+      <Filter>MainGame\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc4.h">
+      <Filter>MainGame\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc5.h">
+      <Filter>MainGame\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc6.h">
+      <Filter>MainGame\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc7.h">
+      <Filter>MainGame\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc9.h">
+      <Filter>MainGame\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc8.h">
+      <Filter>MainGame\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc10.h">
+      <Filter>MainGame\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
